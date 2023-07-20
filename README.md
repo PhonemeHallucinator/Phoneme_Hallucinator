@@ -1,6 +1,9 @@
 # Phoneme_Hallucinator
 This is the repository of paper "Phoneme Hallucinator: One-shot Voice Conversion via Set Expansion" under double-blind review.
 
+## Inference Tutorial
+1. If you only want to run our VC pipeline, please download `Phoneme Hallucinator DEMO.ipynb` in this repo and run it in google colab.
+   
 ## Training Tutorial
 1. To prepare the training set, we need to use WavLM to extract speech representations. Go to [kNN-VC repo](https://github.com/bshall/knn-vc) and follow its instructions to extract speech representations. Namely, after placing LibriSpeech dataset in a correct location, run the command:
 
