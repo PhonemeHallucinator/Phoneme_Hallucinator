@@ -1,2 +1,4 @@
 # Phoneme_Hallucinator
-This is the repository of "Phoneme Hallucinator: One-shot Voice Conversion via Set Expansion" 
+This is the repository of paper "Phoneme Hallucinator: One-shot Voice Conversion via Set Expansion" under double-blind review.
+
+
