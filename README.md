@@ -13,4 +13,4 @@ This is the repository of paper "Phoneme Hallucinator: One-shot Voice Conversion
 4. Start Training by the following command: 
    `python scripts/run.py --cfg_file=./exp/speech_XXL_cond/params.json --mode=train`
    
-   If `tfrecord_path` doesn't exist, our codes will create tfrecords and save them to `tfrecord_path` before training starts. Note that if you encounter numerical issues ("NaN, INF") when the training starts, just try re-run the command multiple times.
+   If `tfrecord_path` doesn't exist, our codes will create tfrecords and save them to `tfrecord_path` before training starts. Note that if you encounter numerical issues ("NaN, INF") when the training starts, just try re-run the command multiple times. Training los will be saved to `./exp/speech_XXL_cond/`.
