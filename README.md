@@ -6,4 +6,4 @@ This is the repository of paper "Phoneme Hallucinator: One-shot Voice Conversion
 
    `python prematch_dataset.py --librispeech_path /path/to/librispeech/root --out_path /path/where/you/want/outputs/to/go --topk 4 --matching_layer 6 --synthesis_layer 6`
 
-Note that we don't use the "--prematch" option, becuase we only need to extract representations, not to extract and then perform kNN regression.
+   Note that we don't use the "--prematch" option, becuase we only need to extract representations, not to extract and then perform kNN regression.
