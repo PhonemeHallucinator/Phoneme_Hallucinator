@@ -7,20 +7,20 @@ This is the repository of paper "Phoneme Hallucinator: One-shot Voice Conversion
 ## Training Tutorial
 1. Prepare environment. Require `Python 3.6.3` and the following packages
    ```
-      pillow == 8.0.1
-      torch == 1.10.2
-      tensorflow == 1.15.5
-      tensorflow-probability == 0.7.0
-      tensorpack == 0.9.8
-      h5py == 2.10.0
-      numpy == 1.19.5
-      pathlib == 1.0.1
-      tqdm == 4.64.1
-      easydict == 1.10
-      matplotlib == 3.3.4
-      scikit-learn == 0.24.2
-      scipy == 1.5.4
-      seaborn == 0.11.2
+   pillow == 8.0.1
+   torch == 1.10.2
+   tensorflow == 1.15.5
+   tensorflow-probability == 0.7.0
+   tensorpack == 0.9.8
+   h5py == 2.10.0
+   numpy == 1.19.5
+   pathlib == 1.0.1
+   tqdm == 4.64.1
+   easydict == 1.10
+   matplotlib == 3.3.4
+   scikit-learn == 0.24.2
+   scipy == 1.5.4
+   seaborn == 0.11.2
    ```
 3. To prepare the training set, we need to use WavLM to extract speech representations. Go to [kNN-VC repo](https://github.com/bshall/knn-vc) and follow its instructions to extract speech representations. Namely, after placing LibriSpeech dataset in a correct location, run the command:
 
