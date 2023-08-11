@@ -2,16 +2,13 @@ import os
 import sys
 p = os.path.split(os.path.dirname(os.path.abspath(__file__)))[0]
 sys.path.append(p)
-import ast
 import logging
 import argparse
 import pickle
 import numpy as np
 import tensorflow as tf
 from pprint import pformat
-import open3d as o3d
 import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
 import glob
 import tensorflow as tf
 
