@@ -1,5 +1,5 @@
 # Phoneme_Hallucinator
-This is the repository of paper "Phoneme Hallucinator: One-shot Voice Conversion via Set Expansion" under double-blind review. Some audio samples are provided [here](https://www.dropbox.com/scl/fi/by4l2uf1zy694paukl51k/audio_samples.pptx?rlkey=4nn42mpzm6ciprrymvxpr7d8s&dl=0)
+This is the repository of paper "Phoneme Hallucinator: One-shot Voice Conversion via Set Expansion" under double-blind review. Some audio samples are provided [here](https://www.dropbox.com/scl/fi/by4l2uf1zy694paukl51k/audio_samples.pptx?rlkey=4nn42mpzm6ciprrymvxpr7d8s&dl=0).
 
 ## Inference Tutorial
 1. If you only want to run our VC pipeline, please download `Phoneme Hallucinator DEMO.ipynb` in this repo and run it in google colab.
